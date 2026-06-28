@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HopeHands Foundation | Contact</title>
+  <meta name="description" content="Contact HopeHands Foundation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">
+        <i class="fa-solid fa-hands-holding-circle"></i>
+        <span>HopeHands Foundation</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="donate.html">Donate</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container grid-2">
+        <div data-animate>
+          <div class="section-title" style="text-align:left">
+            <h2>Contact us</h2>
+            <p>We’d love to hear from you.</p>
+          </div>
+
+          <form class="form" data-validate="true" novalidate>
+            <div class="row">
+              <div class="field">
+                <label for="cname">Name</label>
+                <input id="cname" type="text" required />
+              </div>
+
+              <div class="field">
+                <label for="cemail">Email</label>
+                <input id="cemail" type="email" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="csubject">Subject</label>
+              <input id="csubject" type="text" required />
+            </div>
+
+            <div class="field">
+              <label for="cmessage">Message</label>
+              <textarea id="cmessage" required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="form-msg" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <div class="card" data-animate>
+          <div class="card-body">
+            <h3>Reach us</h3>
+            <p class="muted"><i class="fa-solid fa-location-dot"></i> Agra, Uttar Pradesh, India</p>
+            <p class="muted"><i class="fa-solid fa-phone"></i> +91 90000 00000</p>
+            <p class="muted"><i class="fa-solid fa-envelope"></i> info@hopehands.org</p>
+            <img
+              class="page-img"
+              src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/27b6d2b0ee73512d9b13197dc3f5f10c80931ddc.jpg"
+              alt="Community support image"
+              loading="lazy"
+              width="1540"
+              height="890"
+              style="margin-top:18px;border-radius:18px;"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 HopeHands Foundation. All rights reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
